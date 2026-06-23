@@ -1,0 +1,154 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Header */
+/* header{
+    background-color: #0a80e1b2;
+    color: white;
+    padding: 20px;
+} */
+
+/* Logo */
+/* .logo h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+} */
+
+/* Navbar */
+/* nav{
+    margin-top: 10px;
+} */
+
+/* nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    
+} */
+
+/* nav a:hover{
+    text-decoration: underline;
+} */
+
+/* Main Layout */
+main{
+    display: flex;
+    min-height: 70vh;
+}
+
+/* Sidebar */
+aside{
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+aside h3{
+    margin-bottom: 10px;
+    color: #2563eb;
+}
+
+aside ul{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+aside ul li{
+    margin: 10px 0;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+aside ul li a:hover{
+    color: #2563eb;
+}
+
+/* Footer */
+footer{
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin: 5px 0;
+}
+
+/* Horizontal Line */
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 15px;
+}
+
+
+header{
+    background-color: 		#808080;
+    color: #121212;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+.about{
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+
+    background-color: #cd2c2c54;
+    border-radius: 20px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about strong{
+    color: #2563eb;
+    font-size: 22px;
+}
